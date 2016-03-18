@@ -2,7 +2,6 @@
 NFPlaceholderTextView是继承UITextView，增加了placeholderText和placeholerTextColor两个属性
 
 ### Add to your project
-
 1、添加头文件
 ```objective-c
 #import "NFPlaceholderTextView.h"
