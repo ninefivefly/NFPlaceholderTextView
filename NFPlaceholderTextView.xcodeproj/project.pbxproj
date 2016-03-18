@@ -13,6 +13,7 @@
 		E0106B5A1C9BDB000086F0C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0106B581C9BDB000086F0C3 /* Main.storyboard */; };
 		E0106B5C1C9BDB000086F0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0106B5B1C9BDB000086F0C3 /* Assets.xcassets */; };
 		E0106B5F1C9BDB000086F0C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0106B5D1C9BDB000086F0C3 /* LaunchScreen.storyboard */; };
+		E0106B691C9BDB460086F0C3 /* NFPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0106B681C9BDB460086F0C3 /* NFPlaceholderTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E0106B5B1C9BDB000086F0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0106B5E1C9BDB000086F0C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0106B601C9BDB000086F0C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0106B671C9BDB460086F0C3 /* NFPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFPlaceholderTextView.h; path = NFPlaceholderTextView/NFPlaceholderTextView.h; sourceTree = "<group>"; };
+		E0106B681C9BDB460086F0C3 /* NFPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFPlaceholderTextView.m; path = NFPlaceholderTextView/NFPlaceholderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		E0106B4E1C9BDAFF0086F0C3 /* NFPlaceholderTextView */ = {
 			isa = PBXGroup;
 			children = (
+				E0106B661C9BDB330086F0C3 /* Class */,
 				E0106B521C9BDB000086F0C3 /* AppDelegate.h */,
 				E0106B531C9BDB000086F0C3 /* AppDelegate.m */,
 				E0106B551C9BDB000086F0C3 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				E0106B501C9BDB000086F0C3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0106B661C9BDB330086F0C3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E0106B671C9BDB460086F0C3 /* NFPlaceholderTextView.h */,
+				E0106B681C9BDB460086F0C3 /* NFPlaceholderTextView.m */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0106B571C9BDB000086F0C3 /* ViewController.m in Sources */,
+				E0106B691C9BDB460086F0C3 /* NFPlaceholderTextView.m in Sources */,
 				E0106B541C9BDB000086F0C3 /* AppDelegate.m in Sources */,
 				E0106B511C9BDB000086F0C3 /* main.m in Sources */,
 			);

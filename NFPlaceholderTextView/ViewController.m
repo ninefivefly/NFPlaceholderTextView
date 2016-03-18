@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "NFPlaceholderTextView.h"
 
 @interface ViewController ()
+
+@property(nonatomic, weak)IBOutlet NFPlaceholderTextView* mTextView;
 
 @end
 
@@ -17,6 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.mTextView.placeHolder = @"请输入内容";
 }
 
 - (void)didReceiveMemoryWarning {
